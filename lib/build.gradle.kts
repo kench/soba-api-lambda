@@ -39,6 +39,9 @@ dependencies {
     // DynamoDB Java client
     implementation(platform("software.amazon.awssdk:bom:2.41.10"))
 
+    // CRaC (Coordinated Restore at Checkpoint)
+    implementation("org.crac:crac:1.5.0")
+
     // Data
     implementation("org.seattleoba:soba-dataformats:1.0")
 
